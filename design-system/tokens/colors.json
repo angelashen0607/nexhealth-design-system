@@ -1,0 +1,72 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "description": "NexHealth color tokens",
+  "brand": {
+    "primary": {
+      "50": { "value": "#EEF2FF", "type": "color" },
+      "100": { "value": "#E0E7FF", "type": "color" },
+      "200": { "value": "#C7D2FE", "type": "color" },
+      "300": { "value": "#A5B4FC", "type": "color" },
+      "400": { "value": "#818CF8", "type": "color" },
+      "500": { "value": "#6366F1", "type": "color", "description": "Primary brand color" },
+      "600": { "value": "#4F46E5", "type": "color" },
+      "700": { "value": "#4338CA", "type": "color" },
+      "800": { "value": "#3730A3", "type": "color" },
+      "900": { "value": "#312E81", "type": "color" }
+    },
+    "secondary": {
+      "50": { "value": "#F0FDFA", "type": "color" },
+      "100": { "value": "#CCFBF1", "type": "color" },
+      "200": { "value": "#99F6E4", "type": "color" },
+      "300": { "value": "#5EEAD4", "type": "color" },
+      "400": { "value": "#2DD4BF", "type": "color" },
+      "500": { "value": "#14B8A6", "type": "color", "description": "Secondary / accent" },
+      "600": { "value": "#0D9488", "type": "color" },
+      "700": { "value": "#0F766E", "type": "color" },
+      "800": { "value": "#115E59", "type": "color" },
+      "900": { "value": "#134E4A", "type": "color" }
+    }
+  },
+  "semantic": {
+    "success": {
+      "light": { "value": "#DCFCE7", "type": "color" },
+      "default": { "value": "#22C55E", "type": "color" },
+      "dark": { "value": "#15803D", "type": "color" }
+    },
+    "warning": {
+      "light": { "value": "#FEF9C3", "type": "color" },
+      "default": { "value": "#EAB308", "type": "color" },
+      "dark": { "value": "#A16207", "type": "color" }
+    },
+    "error": {
+      "light": { "value": "#FEE2E2", "type": "color" },
+      "default": { "value": "#EF4444", "type": "color" },
+      "dark": { "value": "#B91C1C", "type": "color" }
+    },
+    "info": {
+      "light": { "value": "#DBEAFE", "type": "color" },
+      "default": { "value": "#3B82F6", "type": "color" },
+      "dark": { "value": "#1D4ED8", "type": "color" }
+    }
+  },
+  "neutral": {
+    "0": { "value": "#FFFFFF", "type": "color" },
+    "50": { "value": "#F9FAFB", "type": "color" },
+    "100": { "value": "#F3F4F6", "type": "color" },
+    "200": { "value": "#E5E7EB", "type": "color" },
+    "300": { "value": "#D1D5DB", "type": "color" },
+    "400": { "value": "#9CA3AF", "type": "color" },
+    "500": { "value": "#6B7280", "type": "color" },
+    "600": { "value": "#4B5563", "type": "color" },
+    "700": { "value": "#374151", "type": "color" },
+    "800": { "value": "#1F2937", "type": "color" },
+    "900": { "value": "#111827", "type": "color" }
+  },
+  "appointment": {
+    "confirmed": { "value": "#22C55E", "type": "color" },
+    "pending": { "value": "#EAB308", "type": "color" },
+    "cancelled": { "value": "#EF4444", "type": "color" },
+    "completed": { "value": "#6366F1", "type": "color" },
+    "no_show": { "value": "#F97316", "type": "color" }
+  }
+}
